@@ -42,7 +42,7 @@ align=left
 
 You can use your own scripts, or the 
 [ones](https://github.com/vivien/i3blocks/tree/master/scripts) provided with 
-i3blocks. Feel free to contribute and improve them!
+i3blocks. Many [community-contributed scripts](https://github.com/vivien/i3blocks-contrib) are also available. Feel free to contribute and improve them!
 
 The default config will look like this:
 
@@ -75,8 +75,8 @@ feel free to edit it!
 
 i3blocks may already be packaged for your distribution:
 
-  * Archlinux: [i3blocks](https://aur.archlinux.org/packages/i3blocks) and 
-  [i3blocks-git](https://aur.archlinux.org/packages/i3blocks-git) AURs.
+  * Archlinux: [i3blocks](https://www.archlinux.org/packages/community/x86_64/i3blocks/) in the official repos and 
+  [i3blocks-git](https://aur.archlinux.org/packages/i3blocks-git) in the AUR 
   * Gentoo: [ebuild](https://github.com/Sabayon-Labs/spike-community-overlay/tree/master/x11-misc/i3blocks)
   * Debian: [i3blocks](https://packages.debian.org/i3blocks) and Ubuntu: [i3blocks](http://packages.ubuntu.com/i3blocks)
 
