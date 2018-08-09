@@ -1,7 +1,8 @@
-# i3blocks
+# i3blocks-gaps
 
-[![Build Status](https://travis-ci.org/vivien/i3blocks.svg?branch=master)](https://travis-ci.org/vivien/i3blocks)
-[![Join the chat at https://gitter.im/vivien/i3blocks](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vivien/i3blocks?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+This repository is a fork of [i3blocks](https://github.com/vivien/i3blocks) made to be compatible with [i3-gaps](https://github.com/Airblader/i3), itself a fork of i3wm.
+
+***
 
 i3blocks is a highly flexible **status line** for the [i3](http://i3wm.org) 
 window manager. It handles *clicks*, *signals* and *language-agnostic* user 
@@ -41,7 +42,7 @@ align=left
 ````
 
 You can use your own scripts, or the 
-[ones](https://github.com/vivien/i3blocks/tree/master/scripts) provided with 
+[ones](https://github.com/Airblader/i3blocks-gaps/tree/master/scripts) provided with 
 i3blocks. Many [community-contributed scripts](https://github.com/vivien/i3blocks-contrib) are also available. Feel free to contribute and improve them!
 
 The default config will look like this:
@@ -73,16 +74,9 @@ feel free to edit it!
 
 ## Installation
 
-i3blocks may already be packaged for your distribution:
+Install i3blocks-gaps from source:
 
-  * Archlinux: [i3blocks](https://www.archlinux.org/packages/community/x86_64/i3blocks/) in the official repos and 
-  [i3blocks-git](https://aur.archlinux.org/packages/i3blocks-git) in the AUR 
-  * Gentoo: [ebuild](https://github.com/Sabayon-Labs/spike-community-overlay/tree/master/x11-misc/i3blocks)
-  * Debian: [i3blocks](https://packages.debian.org/i3blocks) and Ubuntu: [i3blocks](http://packages.ubuntu.com/i3blocks)
-
-Or you may install i3blocks from source:
-
-    $ git clone git://github.com/vivien/i3blocks
+    $ git clone https://github.com/Airblader/i3blocks-gaps i3blocks
     $ cd i3blocks
     $ make clean debug # or make clean all
     # make install
